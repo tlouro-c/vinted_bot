@@ -28,7 +28,6 @@ public class App {
 
         ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
 
-
         scheduler.scheduleAtFixedRate( () -> {
 
             var cookieStore = new BasicCookieStore();

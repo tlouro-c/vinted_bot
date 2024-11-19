@@ -18,7 +18,7 @@ public class Config {
 
     private static Properties loadConfig() {
         Properties properties = new Properties();
-        try (var input = Config.class.getResourceAsStream("/config.properties")) {
+        try (var input = Config.class.getResourceAsStream("/my_config.properties")) {
             properties.load(input);
         } catch (IOException e) {
             System.err.println("Failed to load config: " + e.getMessage());
