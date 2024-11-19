@@ -61,7 +61,11 @@ public class App {
                     RootWrapper root = objectMapper.readValue(jsonResponse, RootWrapper.class);
 
                     var items = root.getItems();
-                    if (lastItem == null || (!lastItem.equals(items.get(0)))) {
+
+                    // Add your custom logic here
+                    var relevantItem = items.get(0);
+
+                    if (lastItem == null || (!lastItem.equals(relevantItem))) {
                         lastItem = items.get(0);
                         EmailSender.sendEmail(EmailSender.formatItemAsHtml(lastItem));
                     }
