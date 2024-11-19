@@ -16,7 +16,7 @@ public class Item {
 
     private Price price;
 
-    @JsonProperty("brand-title")
+    @JsonProperty("brand_title")
     private String brandTitle;
 
     private User user;
