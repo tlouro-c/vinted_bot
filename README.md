@@ -22,6 +22,10 @@ The **Vinted Mail Updates Bot** notifies you via email whenever new items matchi
 
 The **Vinted Mail Updates Bot** is a lightweight Java application that periodically queries the Vinted API based on your specified criteria. When new items matching your search are found, it sends an email notification to a specified address.
 
+### E-Mail Exemple
+
+![E-mail example](email_example.png)
+
 ---
 
 ## Getting Started
