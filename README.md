@@ -53,7 +53,7 @@ The bot reads its configuration from the `resources/config.properties` file. Bel
 
 | Property          | Description                                                                                                                       | Example                                      |
 |-------------------|-----------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|
-| `mail.smtp.host`  | The mail smpt host.                                                                                                               | `sender_example@gmail.com`                   |
+| `mail.smtp.host`  | The mail smpt host.                                                                                                               | `smtp.gmail.com`                   |
 | `sender.email`    | The email address used to send notifications. This should be a valid account.                                                     | `sender_example@gmail.com`                   |
 | `sender.password` | The password for the sender email. Use an [App Password](https://support.google.com/accounts/answer/185833?hl=en) if using Gmail. | `example_password`                           |
 | `receiver.email`  | The email address where notifications will be sent.                                                                               | `receiver_example@gmail.com`                 |
