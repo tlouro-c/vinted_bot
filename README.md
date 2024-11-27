@@ -203,6 +203,6 @@ The provided cron job will automatically restart the bot every hour if it’s no
 
 **How do I customize the email notification format?**
 
-You can modify the email template in the `App.java` file under the email sending logic.
+You can modify the email template in the `EmailSender.java` file under the email sending logic.
 
 
